@@ -12,4 +12,12 @@ The repository includes:<br>
 <ul>
   <li>HTML Basics: Simple examples of HTML5 elements and page structure.</li>
   <li>CSS Styling: Examples of how to style HTML using CSS, including classes, IDs, and selectors.</li>
-</ul>
+</ul><br>
+<b>Contributing</b><br>
+Contributions are welcome! Please feel free to submit a pull request or open an issue to improve the game.
+<br><br>
+<b>Acknowledgments</b><br>
+This project was made with help of Youtube video.
+<br><br>
+<b>Contact</b><br>
+If you’d like to reach out, feel free to connect with me via https://www.linkedin.com/in/akashvahadne
