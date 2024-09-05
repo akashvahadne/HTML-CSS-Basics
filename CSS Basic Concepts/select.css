@@ -1,0 +1,58 @@
+*{
+    color:aliceblue;
+    background-color: black;
+}
+h1{
+    color: aqua;
+}
+p2{
+    color: blueviolet;
+}
+h2{
+    font-weight: lighter;
+}
+h3{
+    font-weight: normal;
+}
+h4{
+    font-weight: bold;
+}
+h5{
+    font-weight: bolder;
+}
+
+#box1,#box6{
+    background-color: azure;
+}
+
+#box3,#box4{
+    background-color: aqua;
+}
+
+div2{
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+    /* drawback of display inline:: top and bottom margin in not applicable ie no margin annd padding */
+}
+
+div3{
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#box2{
+    background-color: aquamarine;
+    visibility: hidden;
+}
+
+#box5{
+    background-color: aquamarine;
+    display: none;
+}

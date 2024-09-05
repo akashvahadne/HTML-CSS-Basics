@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffe8e0;
+}
+header{
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: wheat;
+    border-bottom: 2px solid black;
+    padding-top: 16px ;
+}
+a{
+    font-style: normal;
+    text-decoration: none;
+}
+#i1{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/Dhyan_Chand.jpg");
+    background-size: cover;
+}
+h2{
+    margin-left: 42%;
+}
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 17px;
+}
+#i2{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/Milkha_Singh.jpg");
+    background-size: cover;
+}
+#i3{
+    height: 300px;
+    width: 600px;
+    margin-left: 29%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/Sachin_Tendulkar.jpg");
+    background-size: cover;
+}
+#i4{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/Mithali_Raj.jpg");
+    background-size: cover;
+}
+#i5{
+    height: 300px;
+    width: 550px;
+    margin-left: 30%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/Viswanathan_Anand.jpg");
+    background-size: cover;
+}

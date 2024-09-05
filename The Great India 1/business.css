@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffe8e0;
+}
+header{
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: wheat;
+    border-bottom: 2px solid black;
+    padding-top: 16px ;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+a{
+    font-style: normal;
+    text-decoration: none;
+}
+#i1{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    margin-top: 70px;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/RatanTata.jpg");
+    background-size: cover;
+}
+h2{
+    margin-left: 42%;
+}
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 17px;
+}
+#i2{
+    height: 330px;
+    width: 600px;
+    margin-left: 30%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/adi-godrej.jpg");
+    background-size: cover;
+}
+#i3{
+    height: 350px;
+    width: 550px;
+    margin-left: 31%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/AzimPremji.jpg");
+    background-size: cover;
+}
+#i4{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/Mukesh-Ambani.jpg");
+    background-size: cover;
+}
+#i5{
+    height: 400px;
+    width: 580px;
+    margin-left: 30%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/Lakshmi-Mittal.jpg");
+    background-size: cover;
+}

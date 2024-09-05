@@ -1,0 +1,63 @@
+body{
+    margin-left: 30%;
+}
+.B{
+    color: rgb(66, 133, 244);
+}
+.R{
+    color: rgb(234, 67, 53);
+}
+.Y{
+    color: rgb(251, 188, 5);
+}
+.G{
+    color: rgb(52, 168, 83);
+}
+fieldset{
+   margin-right: 40%;
+   padding-bottom: 50px;
+}
+.T1{
+    padding-left: 40%;
+}
+.T{
+    padding-left: 42%;
+}
+.T3{
+    padding-left: 30%;
+}
+.FI{
+    margin-left:  20px;
+    padding-bottom: 20px;
+    font-size:large;  
+    padding-inline-end: 350px;
+    border-radius: 10px;
+}
+p{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.Forgot{
+    color: rgb(66, 133, 244);
+    margin-left: 20px;
+}
+.CR{
+    font-size: x-large;
+    font-style: normal;
+    color: rgb(66, 133, 244);
+    margin-left: 20px;
+}
+.Fie{
+    background-color: blue;
+    margin-left: 500px;
+    margin-top: -25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Fie2{
+    color: white;
+    text-decoration: none;
+}
+.button{
+    font-size: large;
+}

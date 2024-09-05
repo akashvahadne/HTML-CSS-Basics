@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    text-align: center;
+    padding-top: 75px;
+    border-radius: 50%;
+    border: 1px seagreen dashed;
+}
+p{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    margin-top: 100px;
+}
+h1{
+    width: 200px;
+    height: 100px;
+    padding: 5px,0px,5px,0px;
+    background-color: aqua;
+    text-align: center;
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 15px;
+    margin-left: 40%;
+}

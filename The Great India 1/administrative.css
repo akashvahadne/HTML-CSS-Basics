@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffe8e0;
+}
+header{
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: wheat;
+    border-bottom: 2px solid black;
+    padding-top: 16px ;
+}
+#link{
+    margin-left: 40px;
+    font-style: italic;
+    font-size: 20px;
+}
+a{
+    font-style: normal;
+}
+p{
+    margin-left: 40px;
+    font-size: 17px;
+}
+
+#political{
+    height: 600px;
+    width: 650px;
+    background-image: url("india\ img/india-map.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 640px;
+    margin-top: -220px;
+}
+#states{
+    margin-left: 40px;
+    font-size: 20px;
+    font-style: italic;
+}
+ol{
+    margin-left: 40px;
+    font-size: 17px;
+    height: 200px;
+    width: 200px;
+}
+#union{
+    margin-left: 300px;
+    margin-top: -220px;
+    font-size: 20px;
+    font-style: italic;
+
+}

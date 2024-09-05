@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Application System</title>
+    <style>
+		body{
+    		font-family: "Times New Roman",Serif;
+    		background-color: rgb(144, 192, 238);
+    		margin-left: 200px;
+			width: 900px;
+			height: auto;
+    	}
+    	h2{
+    		background-color: rgb(34, 62, 139);
+    		text-align: center;
+    		padding: 10px;
+    		color: white;
+            margin: 10px;
+    	}
+		h3{
+    		background-color: rgb(121, 123, 247);
+    		text-align: center;
+    		padding: 10px;
+    		color: white;
+            margin: 10px;
+    	}
+    	td{
+    		padding: 7px;
+    	}
+    	input{
+    		height: 25px;
+    		border-radius: 10px;
+    		border: none;
+
+    	}
+    	input:focus,textarea:focus{
+    		outline: none;
+    		border: 3px solid rgb(34, 62, 139);
+    	}
+    	textarea{
+    		border-radius: 10px;
+    		border: none;
+    	}
+		button{
+    		font-family:  Arial, Helvetica, sans-serif ;
+    		letter-spacing: 1px;
+    		text-transform: uppercase;
+   		 	text-align: center;
+    		border: 2px solid rgb(34, 62, 139);
+    		background: rgb(34, 62, 139);
+    		color: rgb(255, 232, 28);
+    		/* box-shadow: 1px 1px 2px rgb(255, 232, 28); */
+    		border-radius: 10px;
+    		padding: 10px 15px;
+    		display: inline-block;
+    		cursor: pointer;
+			margin-left: 43%;
+		}
+    </style>
+</head>
+<body>
+    <h1 align="center">Online Admission Registration Form</h1>
+	<form>
+		<div id="personal-information">
+			<h2>Personal Information</h2><br>
+			<table align="center">
+				<tr>
+					<td>Candidate Name</td>
+					<td>
+						<input type="text" size="35">
+					</td>
+				</tr>
+				<tr>
+					<td>Father Name</td>
+					<td>
+						<input type="text" size="35">
+					</td>
+					<td>Mother Name</td>
+					<td>
+						<input type="text" size="35">
+					</td>
+				</tr>
+				<tr>
+					<td>Current Address</td>
+					<td>
+						<textarea rows="5" cols="35"></textarea>
+					</td>
+					<td>Permant Address Address</td>
+					<td>
+						<textarea rows="5" cols="35"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>Phone No</td>
+					<td>
+						<input type="number" size="35">
+					</td>
+					<td>Mobile No</td>
+					<td>
+						<input type="number" maxlength="10" minlength="10">
+					</td>
+				</tr>
+				<table>
+					<td>Home Phone</td>
+					<td>
+						<input type="text" size="35">
+					</td>
+					
+					<tr>
+						<td>Date Of Birth</td>
+						<td>
+							<input type="Date">
+						</td>
+						<td>Place Of Birth</td>
+						<td>
+						<input type="text" size="35">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">Select Gender</td>
+						<td>
+							<input type="radio" name="gender" value="male">Male
+							<input type="radio" name="gender"value="female">Female
+						</td>
+					</tr>
+					<tr>
+						<td>Nationality</td>
+						<td>
+							<select>
+								<option>Indian</option>
+								<option>American</option>
+								<option>Others</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>AdharCard Number</td>
+						<td>
+							<input type="number">
+						</td>
+						<td>PAN Card Number</td>
+						<td>
+							<input type="text" size="20">
+						</td>
+					</tr>
+				</table><br>	
+				<h2>Education Information</h2>
+				<h3>10th Qualification</h3>
+				<table align="center">	
+					<tr>
+						<td> Roll/Seat Number</td>
+						<td>
+							<input type="text" size="35" maxlength="7" minlength="7">
+						</td>
+					</tr>			
+					<tr>
+						<td>Name of the Board</td>
+						<td>
+							<input type="text" size="35">
+						</td>
+						<td>School/ lnstitute Name</td>
+						<td>
+							<input type="text" size="35">
+						</td>
+					</tr>
+					<tr>
+						<td>Marks Obtained</td>
+						<td>
+							<input type="number" size="15">
+						</td>
+						<td>Maximum Marks</td>
+						<td>
+							<input type="number" size="15">
+						</td>
+					</tr>
+					<tr>
+						<td>Percentage of Marks(%) </td>
+						<td>
+							<input type="number" size="35">
+						</td>
+						<td>Year of Passing</td>
+						<td>
+							<input type="month" size="35">
+						</td>
+					</tr>
+				</table>
+				<h3>12th Qualification</h3>
+				<table align="center">	
+					<tr>
+						<td> Roll/Seat Number</td>
+						<td>
+							<input type="text" size="35" maxlength="7" minlength="7">
+						</td>
+					</tr>			
+					<tr>
+						<td>Name of the Board</td>
+						<td>
+							<input type="text" size="35">
+						</td>
+						<td>School/ lnstitute Name</td>
+						<td>
+							<input type="text" size="35">
+						</td>
+					</tr>
+					<tr>
+						<td>Marks Obtained</td>
+						<td>
+							<input type="number" size="15">
+						</td>
+						<td>Maximum Marks</td>
+						<td>
+							<input type="number" size="15">
+						</td>
+					</tr>
+					<tr>
+						<td>Percentage of Marks(%) </td>
+						<td>
+							<input type="number" size="35">
+						</td>
+						<td>Year of Passing</td>
+						<td>
+							<input type="month" size="35">
+						</td>
+					</tr>
+				</table>
+				<h3>Diploma Details</h3>
+				<table align="center">	
+					<tr>
+						<td>Diploma</td>
+						<td>
+							<select>
+								<option>Select a course</option>
+								<option>Mecanical</option>
+								<option>Electrical</option>
+								<option>Civil</option>
+								<option>Computer</option>
+								<option>IT</option>
+								<option>Mechatronic</option>
+								<option>Others..</option>
+							</select>
+						</td>
+						<td> Enrollment/Seat Number</td>
+						<td>
+							<input type="text" size="35">
+						</td>
+					</tr>			
+					<tr>
+						<td>Name of the Board</td>
+						<td>
+							<input type="text" size="35">
+						</td>
+						<td>School/ lnstitute Name</td>
+						<td>
+							<input type="text" size="35">
+						</td>
+					</tr>
+					<tr>
+						<td>Marks Obtained</td>
+						<td>
+							<input type="number" size="15">
+						</td>
+						<td>Maximum Marks</td>
+						<td>
+							<input type="number" size="15">
+						</td>
+					</tr>
+					<tr>
+						<td>Percentage of Marks(%) </td>
+						<td>
+							<input type="number" size="35">
+						</td>
+						<td>Year of Passing</td>
+						<td>
+							<input type="month" size="35">
+						</td>
+					</tr>
+				</table><br>
+				<button>Save</button>
+</body>
+</html>

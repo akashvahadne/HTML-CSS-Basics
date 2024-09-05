@@ -1,0 +1,44 @@
+.T{
+    color:rgb(7, 3, 251);
+    text-align: center;
+}
+.A1{
+    background-color:rgb(255, 153, 51);
+    padding: 10px;
+    
+}
+.A2{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.A3{
+    background-color: green;
+    padding: 10px;
+}
+.B1{
+    text-align: center;
+    background-color: rgb(55, 192, 55);
+    color: white;
+    padding: 10px;
+}
+.Frame{
+    padding: 10%;
+}
+.C1{
+    text-align: center;
+    background-color: rgb(55, 192, 55);
+    color: white;
+    padding: 10px;
+}
+.M h2{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.D1{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}

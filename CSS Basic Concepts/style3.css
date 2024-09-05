@@ -1,0 +1,32 @@
+#line{
+    background-color: rgb(65, 221, 169);
+    display: inline;
+}
+#box1,#box6{
+    background-color: azure;
+}
+
+#box2,#box5{
+    background-color: aquamarine;
+}
+
+#box3,#box4{
+    background-color: aqua;
+}
+
+div2{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+    /* drawback of display inline:: top and bottom margin in not applicable ie no margin annd padding */
+}
+
+div3{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}

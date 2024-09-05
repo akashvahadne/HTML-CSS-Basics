@@ -1,0 +1,44 @@
+h3{
+    text-align: center;
+    color: orangered;
+    text-decoration: red wavy underline ;
+}
+body{
+    text-align: start;
+    /* start=left */
+    background-color: black;
+}
+button{
+    text-align: left;
+    color: aliceblue;
+    background-color: rgb(255, 1, 1);
+}
+#HeadingOne{
+    color: antiquewhite;
+    text-decoration: dotted underline;
+}
+#HeadingTwo{
+    color: cadetblue;
+}
+#HeadingThree{
+    color: cornflowerblue;
+}
+.MyClass{
+    color: cyan;
+    text-transform: capitalize;
+}
+#box{
+    text-align: end;
+    /* end=right:  */
+    background-color: rgb(126, 182, 204);
+    /* this is comment shortcut key ctrl+/ */
+    line-height: 30px;
+}
+h5,h6{
+    color: #ff0;
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffe8e0;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header{
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: wheat;
+    border-bottom: 2px solid black;
+    padding-top: 16px ;
+}
+a{
+    font-style: normal;
+    text-decoration: none;
+}
+
+h2{
+    margin-left: 47%;
+}
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 17px;
+}
+#i1{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/holi.webp");
+    background-size: cover;
+}
+#i2{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/diwali.webp");
+    background-size: cover;
+}
+#i3{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/chhath.jpg");
+    background-size: cover;
+}
+#i4{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/navratri.webp");
+    background-size: cover;
+}

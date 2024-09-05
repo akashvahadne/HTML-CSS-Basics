@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    /* flex direction types: row,row-reverse,column,column-reverse */
+    /* row=by default from left to right */
+    /* row-reverse=right to left */
+    /* column=top to bottom */
+    /* column-reverse=bottom to top */
+   /* flex-direction: row; */
+   /* justify-content: space-evenly; */
+   /* justify-content: center; */
+   /* justify-content: end; */
+   /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap-reverse;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+}
+#box1{
+    background-color: rgb(183, 253, 253);
+}
+#box2{
+    background-color: rgb(94, 248, 248);
+}
+#box3{
+    background-color: aqua;
+    /* align-self: center; */
+    /* using align self the individual box will be aligned */
+    /* flex-grow: 1; */
+    /* flex-shrink: 5; */
+}
+#box4{
+    background-color: rgb(1, 160, 160);
+}
+#box5{
+    background-color: rgb(2, 124, 124);
+}
+
+.class{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+@media(width:500px){
+    .class{
+        background-color: gray;
+    }
+}

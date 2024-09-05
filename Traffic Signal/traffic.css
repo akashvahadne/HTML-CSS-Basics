@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+#Box{
+
+    height: 400px;
+    width: 120px;
+    background-color: black;
+    border: 5px dashed black;
+    margin-left: 45%;
+}
+
+#Red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-color: red;
+    margin-left: 12%;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+
+#Yellow{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-color: yellow;
+    margin-left: 12%;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+#Green{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-color: green;
+    margin-left: 12%;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+
+#Down{
+    height: 80px;
+    width: 40px;
+    background-color: black;
+    border: 5px dashed black;
+    margin-left: 48%;
+   
+}

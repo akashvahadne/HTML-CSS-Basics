@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffe8e0;
+}
+header{
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: wheat;
+    border-bottom: 2px solid black;
+    padding-top: 16px ;
+}
+a{
+    font-style: normal;
+    text-decoration: none;
+}
+#i1{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/jawaharlal-neharu.jpg");
+    background-size: cover;
+}
+h2{
+    margin-left: 44%;
+}
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 17px;
+}
+#i1{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/jawaharlal-neharu.jpg");
+    background-size: cover;
+}
+#i2{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/Atal-bihari-Vajpayee.webp");
+    background-size: cover;
+}
+#i3{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/indira-gandhi.png");
+    background-size: cover;
+}
+#i4{
+    height: 300px;
+    width: 600px;
+    margin-left: 30%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/lal-bahadur-shastri.jpg");
+    background-size: cover;
+}
+#i5{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/narendra-modi.jpg");
+    background-size: cover;
+}
+#i6{
+    height: 300px;
+    width: 500px;
+    margin-left: 33%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/rajendra-prasad.png");
+    background-size: cover;
+}

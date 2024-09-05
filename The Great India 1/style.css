@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+body{
+    background-color: #ffe8e0;
+}
+ul{
+    height: 45px;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+    border-bottom: 1px solid #d43900;
+    padding-bottom: 23px;
+}
+ul :hover {
+    background-color: #ac1b1b;
+    color: white;
+}
+li{
+    list-style-type: none;
+    border: 1px solid #d43900;
+    border-radius: 5px;
+    font-size: 15px;
+    align-items: center;
+    background-color: #fcf1ed;
+    padding: 10px;
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: #d43900;
+}
+h1{
+    background-color: orange;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#india{
+    height: 300px;
+    width: 450px;
+    margin-left: 35%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/logo.png");
+    background-size: cover;
+}
+.wiki{
+    color: white;
+}
+#intro{
+    width: 650px;
+    margin-left: 30%;
+    font-size: large;
+}
+#short{
+    height: 100px; 
+    width: 700px; 
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-evenly;
+    font-size: large;
+    text-align: center;
+    margin-left: 25%;
+    align-items: center;
+}
+#flag{
+    height: 50px;
+    width:75px;
+    background-color: black;
+    background-image: url("india\ img/india_flag.jpg");
+    background-size: cover;
+}
+#img{
+    height: 300px;
+    width: 300px;
+    margin-left: 40%;
+    background-color:black;
+    font-size: 50px;
+    background-image: url("india\ img/India.png");
+    background-size: cover;
+    padding: 20px;
+    border: 2px solid gray;
+}
+#place{
+    height: 300px;
+    width: 700px;
+    background-color: pink;
+    text-align: center;
+    margin-left: 27%;
+}
+#interest{
+    display: flex;
+    justify-content: space-evenly;
+}
+#minar{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50%;
+    background-image: url("india\ img/Qutb Minar.jfif");
+    background-size: cover;
+}
+#temple{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50%;
+    background-image: url("india\ img/Iskcon Temple.jfif");
+    background-size: cover;
+}
+#drive{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50%;
+    background-image: url("india\ img/Marine Drive.jfif");
+    background-size: cover;
+}
+#name{
+    display: flex;
+    justify-content: space-around;
+}
+.wik{
+    color: black;
+}
+#foot{
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(30, 158, 30);
+    text-align: center;
+}
